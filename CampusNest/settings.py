@@ -43,7 +43,7 @@ AWS_QUERYSTRING_AUTH = False
 # MAPBOX
 MAPBOX_ACCESS_TOKEN = os.getenv("MAPBOX_ACCESS_TOKEN")
 
-DEBUG = os.getenv("DEBUG", "True") == "True"
+DEBUG = os.getenv("DEBUG", "True") == "False"
 
 ALLOWED_HOSTS = [
     "localhost",

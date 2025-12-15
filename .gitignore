@@ -28,8 +28,6 @@ static_root/
 # Elatic Beanstalk
 .elasticbeanstalk/
 
-
-
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml
